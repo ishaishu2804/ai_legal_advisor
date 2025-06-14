@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Legal Advisor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f2f6fc;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #003366;
+            padding: 20px 0;
+            color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            margin: 60px auto;
+            max-width: 600px;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            outline: none;
+        }
+
+        input[type="submit"] {
+            background-color: #003366;
+            color: white;
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #00509e;
+        }
+
+        .result {
+            margin-top: 30px;
+            font-size: 1.2rem;
+            color: #004080;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🔍 AI Legal Advisor</h1>
+        <p>Your pocket guide to Indian law</p>
+    </header>
+
+    <div class="container">
+        <form method="POST">
+            <input type="text" name="query" placeholder="Enter your legal question here..." required>
+            <input type="submit" value="Get Legal Advice">
+        </form>
+
+        {% if result %}
+            <div class="result">
+                <strong>Result:</strong><br><p>{{ result | safe }}</p>
+
+            </div>
+        {% endif %}
+    </div>
+
+</body>
+</html>

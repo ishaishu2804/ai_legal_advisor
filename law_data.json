@@ -1,0 +1,56 @@
+[
+  {
+    "section": "IPC 420",
+    "title": "Cheating and dishonestly inducing delivery of property",
+    "keywords": ["fraud", "cheating", "scam", "dishonest", "property"],
+    "procedure": "File a complaint at the nearest police station. Provide documents or proof of cheating. The police may register an FIR under IPC 420."
+  },
+  {
+    "section": "IT Act 66A",
+    "title": "Sending offensive messages through communication service",
+    "keywords": ["cybercrime", "message", "offensive", "internet"],
+    "procedure": "Report it to the Cyber Crime Cell or online at cybercrime.gov.in. Share screenshots, user IDs, and message content as evidence."
+  },
+  {
+    "section": "IPC 376",
+    "title": "Punishment for rape",
+    "keywords": ["rape", "sexual assault", "crime against women"],
+    "procedure": "Call 112 or visit the police. Get a medical exam immediately. You can file a complaint with a female officer and request legal aid."
+  },
+  {
+    "section": "IPC 498A",
+    "title": "Cruelty by husband or relatives of husband",
+    "keywords": ["domestic violence", "husband abuse", "dowry", "cruelty"],
+    "procedure": "You can report this at the women's cell or local police station. NGOs and women's helplines can also support. Legal protection under DV Act is available."
+  },
+  {
+    "section": "POSH Act 2013",
+    "title": "Sexual harassment of women at workplace",
+    "keywords": ["workplace", "harassment", "sexual", "posh", "office abuse"],
+    "procedure": "File a complaint with your company’s Internal Complaints Committee (ICC) within 3 months. If ICC is not present, report to the Local Committee (LC) in your district."
+  },
+  {
+    "section": "IPC 307",
+    "title": "Attempt to murder",
+    "keywords": ["murder attempt", "attack", "try to kill", "deadly assault"],
+    "procedure": "File an FIR with the police immediately. Collect any witness statements or medical records to support your case."
+  },
+  {
+    "section": "IPC 379",
+    "title": "Theft",
+    "keywords": ["theft", "stolen", "robbed", "steal"],
+    "procedure": "Report theft to the police. Include details like date, time, place, and what was stolen. Provide CCTV footage or eyewitnesses if available."
+  },
+  {
+    "section": "IPC 354",
+    "title": "Assault or criminal force to woman with intent to outrage her modesty",
+    "keywords": ["molestation", "touching", "inappropriate", "assault"],
+    "procedure": "You can report such incidents at the police station or via 112. Medical examination and legal assistance will be provided immediately."
+  },
+  {
+    "section": "IPC 499",
+    "title": "Defamation",
+    "keywords": ["defamation", "false accusations", "reputation", "insult"],
+    "procedure": "If someone spreads false claims that harm your reputation, file a complaint under IPC 499. Civil and criminal remedies are available."
+  }
+]
